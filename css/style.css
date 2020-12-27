@@ -1,0 +1,126 @@
+body{
+	max-width: 1000px;
+	margin: auto;
+	padding: lem;
+	background-color:#131010;
+	color:lightblue;
+	font: normal 16px Arial, Helvetica, sans-serif;
+	line-height: 1.8em;
+}
+
+.left{
+	text-align: left;
+	min-height: 300px;
+}
+
+.right{
+	text-align:left;
+	min-height: 300px;
+}
+
+.post{
+	text-align:left;
+	min-height: 300px;
+}
+.post h1{
+	color: lightcoral;
+}
+
+.right img  {
+padding-top: 1em;
+float: right;
+max-width: 400px;
+max-height: 225px;
+padding: 20px;
+}
+
+.left img {
+padding-top: 1em;
+float: left;
+max-width: 400px;
+max-height: 225px;
+padding: 20px;
+}
+
+a {
+    color:#aab526;
+    text-decoration: none;
+}
+a:hover {
+    color:#f16a0b;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+    	text-shadow: -1px 3px 3px rgba(0, 0, 0, 0.68);
+}
+
+h1{
+	color:#e8ea56;
+	font-weight: Bold;
+}
+h2 {
+	color: goldenrod;
+	text-align: left;
+}
+
+h3{
+	color:red;
+}
+
+.menubar li a {
+    display: block;
+}
+
+.menubar {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    zoom:1;
+}
+
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-align: center;
+}
+
+
+.menubar li {
+	display: block;
+	float: left;
+	width: 100px;
+    min-height: 1.5em;
+    background: #222;
+    border: #444 solid 2px;
+    padding: 3px;
+    margin: 4px;
+}
+
+.menubar li:hover {
+    background: #000;
+}
+
+.menubar a {
+    text-decoration: none;
+}
+
+.menubar li ul {
+	visibility: hidden;
+	position: absolute;
+    padding-top: 10px;
+}
+
+.menubar li:hover ul {
+	visibility: visible;
+    padding-left: 0;
+    margin-left: -7px;
+}
+
+.menubar li ul li {
+    float: none;
+    position: relative;
+    width: 150px;
+    text-align: left;
+}
